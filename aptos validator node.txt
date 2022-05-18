@@ -57,6 +57,7 @@ aptos genesis set-validator-configuration \
 thonguyen is my node name , 154.12.229.177 is my ip vps . Change your name , ip
 
 6- Create layout YAML file, which defines the node in the validatorSet, for test mode, we can create a genesis blob containing only one node.
+
   $ nano layout.yaml
 
 copy the below and paste in the command , replace your name
@@ -95,7 +96,7 @@ unzip framework.zip
 
 10 - Run docker-compose
 
- $ Docker compose up -d 
+ $ docker compose up -d 
 
 11 - Apply for Incentivized Testnet : https://community.aptoslabs.com/
   You can check the file content for PUBLIC KEYS, VALIDATOR NODE and FULL NODE information.
